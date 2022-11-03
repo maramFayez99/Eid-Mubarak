@@ -1,0 +1,438 @@
+
+/* public*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+:root{
+   --seccolor:rgb(184, 131, 63);
+   --maincolor:black;
+}
+
+.container{
+   width: 80%;
+   margin: auto;
+ }
+
+
+
+.navbar{
+    background-color: var(--maincolor);
+     position: fixed;
+     width: 100%;
+     overflow: auto;
+     z-index: 1;
+   }
+
+ 
+
+ .logo{
+    float: left;
+    width: 35%;
+    color: var(--seccolor);
+    text-transform: capitalize;
+    font-size: 25px;
+    padding-top: 18px;
+
+ }
+
+ .logo:hover{
+   color: #fff;
+ }
+
+ .nav{
+    float: left;
+    width: 65%;
+    text-align: right;
+    padding-top: 20px;
+ }
+
+
+
+
+ .nav .list{
+    list-style-type: none;
+ }
+
+ .list .list-item{
+    display: inline-block;
+ }
+
+ .list .link-nav{
+    text-decoration: none;
+    color: var(--seccolor);
+    text-transform: capitalize;
+    margin-right: 20px;
+    margin: 20px;
+   
+ }
+
+ .list .link-nav:hover{
+   color: #fff;
+ }
+
+
+ .header-contant{
+   padding-top: 100px;
+    height: 100vh;
+    background-color:var(--maincolor);
+    overflow: auto;
+    
+   }
+
+   .header-contant-item{
+      padding-top: 200px;
+   }
+   
+   .main-title{
+      color: var(--seccolor);
+      text-transform: uppercase;
+      font-size: 55px;
+   }
+
+   .main-discription{
+      color: var(--seccolor);
+      width: 35%;
+      margin:auto 20px;
+      font-size: 15px;
+      
+    }
+
+    .link{
+      background-color: var(--seccolor);
+      color:var(--maincolor);
+      text-decoration: none;
+      text-transform: uppercase;
+      display: block;
+      width: fit-content;
+      padding: 20px 40px;
+      margin: 20px;
+      border-radius: 30px; 
+    
+    }
+   
+    .link:hover{
+      background-color:#fff;
+      border: 2px;
+    }
+
+   .header-contant .image{
+      margin: 2px;
+     float: right;
+     width: 40%;
+    text-align: center; 
+    cursor: pointer;
+    position: relative;
+ 
+   
+      }
+
+    .header-contant  img{
+        position: absolute;
+        right: 40px;
+        bottom: 0;
+         width: 500px;
+         height: 300px;
+         text-align: center;
+       
+       }
+
+
+       .about{
+         padding-top: 100px;
+         padding-bottom: 100px;
+         text-align: center;
+         background-color: beige;
+         
+       }
+
+       .title{
+         text-transform: capitalize;
+         font-size: 70px;
+         text-align: center;
+       }
+
+
+       .line{
+         background-color: var(--maincolor);
+         height: 3px;
+         width: 100px;
+         display: block;
+         margin: 20px auto;
+      }
+
+      .about-items{
+         overflow: auto;
+      }
+
+      .about-item{
+         float: left;
+         width: 25%;
+        
+      }
+      
+      .about-item i{
+      color: var(--maincolor);
+      font-size: 40px;
+      margin-bottom: 10px;
+      
+      }
+
+      .about-discription{
+         width:80%;
+         margin: auto;
+         font-size: 18px;
+         margin-top: 10px;
+
+      }
+
+      .information{
+         padding-top: 100px;
+         padding-bottom: 100px;
+         background-color:var(--maincolor);
+         color: var(--seccolor);
+      }
+
+      .information-heading{
+         text-transform: capitalize;
+         font-size: 30px;
+         margin:20px;
+         
+      }
+
+     .information-discription{
+      font-size: 20px;
+      width: 50%;
+      margin-top: 20px;
+      margin:20px;
+     }
+
+       .pic{
+         margin: 2px;
+         float: right;
+         width: 40%;
+        text-align: center;
+        position: relative; 
+        cursor: cell;
+       }
+     .information img{
+      position: absolute;
+      right: 40px;
+      bottom: 0;
+       width: 400px;
+       height: 250px;
+       text-align: center;
+       
+     }
+
+     .video{
+     padding-top: 100px;
+     background-color: var(--seccolor);
+   
+     }
+
+.video-heading{
+   text-transform: capitalize;
+   font-size: 40px;
+   text-align: center;
+}
+
+       
+.video-eid{
+   width:60%;
+   margin: 40px auto;
+   text-align: center;
+   
+}
+
+.contactus{
+   padding-top:100px ;
+   text-align: center;
+ 
+}
+
+.contact h2{
+  
+   text-transform: uppercase;
+   font-size: 20px;
+}
+
+ .contact form input, button, textarea {
+   display: block;
+   width: 50%;
+   margin: 10px auto;
+   border: 10px;
+   border-bottom: 1px var(--seccolor) solid;
+   outline: 0;
+   padding: 20px 5px;
+   background-color:transparent;
+ }
+
+  .contact form button {
+   background-color: var(--maincolor);
+   color:var(--seccolor) ;
+   font-size: 15px;
+   font-weight: 600;
+   text-transform: capitalize;
+   border-radius: 20px;
+   cursor: pointer;
+  }
+
+
+
+  .footer{
+   padding-top: 100px;
+   background-color: var(--seccolor);
+   text-align: center;
+   padding: 50px;
+   text-transform: capitalize;
+  
+  }
+
+   
+@media (max-width:576px){
+   
+  
+   .logo{
+      font-size: 35px;
+      padding-top: 20px;
+  
+   }
+  
+   .nav{
+    
+       font-size: 30px;
+      padding-top: 30px;
+   }
+
+
+
+      
+      .main-title{
+         font-size: 25px;
+         margin-bottom: 10px;
+         margin-left: 15px;
+      }
+   
+      .main-discription{
+         font-size: 18px;
+         line-height: 20px;
+       }
+   
+       .link{
+         margin: 25px;
+
+       }
+   
+      .header-contant .image{
+         margin: 25px;
+         }
+   
+
+         .about-discription{
+            width:100%;
+            font-size: 20px;
+         }
+
+   .video-eid{
+      width:100%;
+   }
+     .footer{
+     font-size: 30px;
+     }
+ 
+}
+
+@media (min-width:576px) and (max-width:992px) {
+   
+   .logo{
+      font-size: 25px;
+      padding-top: 20px;
+  
+   }
+  
+   .nav{
+    
+       font-size: 22px;
+      padding-top: 25px;
+   }
+
+
+
+      
+      .main-title{
+         font-size: 25px;
+         margin-bottom: 10px;
+         margin-left: 15px;
+      }
+   
+      .main-discription{
+         font-size: 18px;
+         line-height: 20px;
+       }
+   
+       .link{
+         margin: 25px;
+
+       }
+   
+       .header-contant  img{
+       
+           right: 25px;
+            width: 360px;
+            height: 300px;
+          }
+   
+
+         .about-discription{
+            width:100%;
+            font-size: 20px;
+         }
+
+
+         .information-heading{
+            font-size: 25px;
+         }
+   
+        .information-discription{
+         font-size: 20px;
+         width: 50%;
+         margin-top: 20px;
+         margin:20px;
+        }
+   
+        .information img{
+          width: 270px;
+
+        }
+
+  
+           
+    .video-eid{
+       width:100%;
+       margin: 40px auto;
+       text-align: center;
+       
+    }
+  
+     .footer{
+     font-size: 30px;
+     }
+}
+   
+
+    
+
+
+
+ 
+
+
+
+
+
+
+
+
